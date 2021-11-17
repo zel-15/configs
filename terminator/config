@@ -1,0 +1,112 @@
+[global_config]
+  focus = mouse
+  tab_position = right
+  scroll_tabbar = True
+  hide_from_taskbar = True
+  title_transmit_bg_color = "#4e9a06"
+  title_inactive_fg_color = "#4e9a06"
+  title_inactive_bg_color = "#2e3436"
+  inactive_color_offset = 0.5060240963855421
+  enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminatorThemes
+  always_split_with_profile = True
+  title_use_system_font = False
+  title_font = Input Mono Ultra-Bold 9
+  case_sensitive = False
+[keybindings]
+[profiles]
+  [[default]]
+    audible_bell = True
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#282828"
+    background_darkness = 0.9
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Hurmit Nerd Font Mono Bold 10
+    foreground_color = "#ebdbb2"
+    show_titlebar = False
+    palette = "#282828:#cc241d:#98971a:#d79921:#458588:#b16286:#689d6a:#a89984:#928374:#fb4934:#b8bb26:#fabd2f:#83a598:#d3869b:#8ec07c:#ebdbb2"
+    use_system_font = False
+  [[Dark Pastel]]
+    background_color = "#282828"
+    cursor_color = "#aaaaaa"
+    foreground_color = "#ebdbb2"
+    use_system_font = False
+  [[Chalkby]]
+    audible_bell = True
+    visible_bell = True
+    icon_bell = False
+    background_color = "#1f2d2d"
+    background_darkness = 0.9
+    background_type = transparent
+    cursor_color = "#ffffff"
+    cursor_color_fg = False
+    font = Input Mono Ultra-Bold 10
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    palette = "#2e3436:#ffb0b0:#c8ff9b:#fffca4:#6f9ceb:#9395d3:#bdeaff:#d3d7cf:#555753:#ffb0b0:#c8ff9b:#fffca4:#6f9ceb:#9395d3:#bdeaff:#eeeeec"
+    use_system_font = False
+  [[ForestBlue]]
+    audible_bell = True
+    visible_bell = True
+    icon_bell = False
+    background_color = "#051519"
+    background_darkness = 0.85
+    background_type = transparent
+    cursor_color = "#9e9ecb"
+    font = Hurmit Nerd Font Mono Bold 10
+    foreground_color = "#f4e2bf"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#333333:#9e4444:#2db383:#1a8e63:#8ed0ce:#5e468c:#31658c:#e2d8cd:#3d3d3d:#fb3d66:#6bb48d:#30c85a:#39a7a2:#7e62b3:#6096bf:#f4e2bf"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 0:27
+      maximised = False
+      fullscreen = False
+      size = 960, 1016
+      title = griff@Griff-Lenovo: ~
+      last_active_term = 91aa7d87-71f7-4427-81a3-5b576246b607
+      last_active_window = True
+    [[[terminal1]]]
+      type = Terminal
+      parent = child0
+      order = 0
+      profile = ForestBlue
+      uuid = 91aa7d87-71f7-4427-81a3-5b576246b607
+  [[New Layout]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 960:27
+      maximised = False
+      fullscreen = False
+      size = 960, 1016
+      title = griff@Griff-Lenovo: ~
+      last_active_term = b2259115-c293-4e93-b805-2d66982d3cb0
+      last_active_window = True
+    [[[child1]]]
+      type = VPaned
+      parent = child0
+      order = 0
+      position = 506
+      ratio = 0.5004945598417408
+    [[[terminal2]]]
+      type = Terminal
+      parent = child1
+      order = 0
+      profile = Dark Pastel
+      uuid = 91aa7d87-71f7-4427-81a3-5b576246b607
+    [[[terminal3]]]
+      type = Terminal
+      parent = child1
+      order = 1
+      profile = Dark Pastel
+      uuid = b2259115-c293-4e93-b805-2d66982d3cb0
+[plugins]
